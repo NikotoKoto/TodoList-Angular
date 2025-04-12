@@ -1,0 +1,89 @@
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-auto{
+flex: 1 1 auto;
+}
+
+.justify-content-center{
+justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.w-half{
+    width: 50%;
+}
+
+.container{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+.gap-12{
+    gap: 12px;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.text-sm{
+    font-size: 0.75rem;
+}
+
+.text-lg{
+    font-size: 1.5rem;
+}
+
+.text-semibold{
+    font-weight: 500;
+}
+
+.text-bold{
+    font-weight: 700;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.px-12{
+ padding-left: 12px;
+ padding-right: 12px;
+}
+.px-16{
+ padding-left: 16px;
+ padding-right: 16px;
+}
+
+.py-6{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

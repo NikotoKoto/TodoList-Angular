@@ -1,0 +1,14 @@
+:root{
+    --font-family: "Montserrat", sans-serif;
+    --primary: oklch(0.496 0.265 301.924);
+    --dark-primary: oklch(0.283 0.141 291.089);
+    --text-color: #222;
+    --danger: oklch(0.577 0.245 27.325);
+    --succes: oklch(0.723 0.219 149.579);
+    --dark-grey :  oklch(0.278 0.033 256.848);
+    --light-grey: oklch(0.551 0.027 264.364);
+    --ultra-light-grey: oklch(0.872 0.01 258.338);
+    --white : oklch(0.97 0 0);
+    --border: 1px solid var(--ultra-light-grey);
+    --radius: 20px
+}
