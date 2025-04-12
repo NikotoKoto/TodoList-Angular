@@ -9,7 +9,7 @@ import { Todo } from '../../shared/interfaces';
   template: `
     <ul class="flex flex-col gap-12">
     @for(todo  of todosList(); track todo._id){
-      <app-todo (toggleTodo)="toggleTodo.emit($event)" [todo]="todo"/>
+      <app-todo (selectTodo)="selectTodo.emit($event)" (toggleTodo)="toggleTodo.emit($event)" [todo]="todo"/>
     }@empty {
       <li> Il n'y a pas de todos</li>
     }
@@ -20,5 +20,6 @@ import { Todo } from '../../shared/interfaces';
 })
 export class TodosListComponent {
   todosList = input<Todo[]>([]);
-  toggleTodo = output<string>()
+  toggleTodo = output<string>();
+  selectTodo = output<string>();
 }
