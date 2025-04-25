@@ -3,14 +3,13 @@ import { FormsModule } from '@angular/forms';
 import { Todo, TodoForm } from '../../shared/interfaces';
 
 @Component({
-  selector: 'app-todo-form',
-  standalone: true,
-  imports: [FormsModule],
-  template: `
+    selector: 'app-todo-form',
+    imports: [FormsModule],
+    template: `
     <input type="text" [(ngModel)]="todoName" class="flex-auto" placeholder="Entrez une todo"/>
     <button (click)="addTodoInput()" class="btn btn-primary">Ajouter</button>
   `,
-  styles: `
+    styles: `
   :host{
       display: flex;
     gap: 20px;

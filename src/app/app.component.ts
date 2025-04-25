@@ -3,11 +3,10 @@ import { TodoContainerComponent } from "./components/todo-container/todo-contain
 
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [TodoContainerComponent],
-  template:`<app-todo-container class="container"/>`,
-  styles:``
+    selector: 'app-root',
+    imports: [TodoContainerComponent],
+    template: `<app-todo-container class="container"/>`,
+    styles: ``
 })
 export class AppComponent {
  
